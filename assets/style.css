@@ -1,8 +1,8 @@
 /* wirefram styles */
 /* code global first */
-/* * {
+* {
     border: solid .5px red;
-} */
+}
 
 /* global styles */
 
@@ -29,7 +29,11 @@ header nav{
     position: relative;
 }
 
-/* Body Styles */
+a{
+    border: 1px solid antiquewhite;
+}
+
+/* Body Styles  */
 .container{
     display: flex;
     position: relative;
@@ -38,11 +42,17 @@ header nav{
     width: 900px;
 }
 
+p{
+    text-align: center;
+}
+
+/* "About Me" side bar border */
 #me{
     border: 1px solid antiquewhite;
     padding: 1em;
 }
 
+/* Image adjustments */
 #stark {
         position: relative;
         width: 13em;
@@ -50,6 +60,7 @@ header nav{
         left: 16em;
 }
 
+/* Sidebar Positioning */
 #side{
     display: flex;
     width: 8%;
