@@ -1,5 +1,4 @@
-/* wirefram styles */
-/* code global first */
+code global first
 * {
     border: solid .5px red;
 }
@@ -10,8 +9,9 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color:#34568B ;
+    background-color: rgba(46, 95, 174, 0.73);
     font-size: 16px;
+    color: antiquewhite;
 }
 
 /* header styles */
@@ -19,7 +19,8 @@ header h1{
     display: flex;
     justify-content: flex-start;
     padding: 1em;
-    font-size: 1.75em;
+    font-size: 2em;
+    background-color: #467853;
 }
 
 header nav{
@@ -27,61 +28,91 @@ header nav{
     justify-content: end;
     min-height: 50px;
     position: relative;
+    right: 1em;
 }
 
-a{
-    border: 1px solid antiquewhite;
+nav a{
+    text-decoration: none;
+    padding-right: 11px;
 }
 
-/* Body Styles  */
-.container{
+/* Body Styles */
+.about-me{
     display: flex;
-    position: relative;
-    top: 53px;
-    left: -25px;
-    width: 900px;
+    flex-direction: row;
+    padding: 2em;
 }
+
+#side{
+    display: flex;
+    width: 7em;
+    font-size: 1.5em;
+    border-right: 1px solid black;
+}
+
+.descr{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#stark{
+    display: flex;
+    flex-direction: row;
+    width: 17em;
+    padding: 1em;
+    min-height: auto;
+}
+
 
 p{
     text-align: center;
-}
-
-/* "About Me" side bar border */
-#me{
-    border: 1px solid antiquewhite;
     padding: 1em;
 }
 
-/* Image adjustments */
-#stark {
-        position: relative;
-        width: 13em;
-        padding: 2em;
-        left: 16em;
-}
-
-/* Sidebar Positioning */
-#side{
+/* Content Section Styles */
+.content{
     display: flex;
-    width: 8%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: left;
-    font-style: italic;
-    position: relative;
-    top: 82px;
+    flex-direction: row;
+    padding: 2em;
 }
 
 #projects{
     display: flex;
-    width: 8%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: left;
-    font-style: italic;
-    position: relative;
-    top: 30em;
-    right: 8em;
+    width: 5.8em;
+    font-size: 1.5em;
+    border-right: 1px solid black;
+}
+
+.projectimages{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#diamond-suit{
+    display: flex;
+    flex-direction: row;
+    width: 45em;
+    padding: 1em;
+}
+
+/* Contact Section Styling */
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
 }
 
 
