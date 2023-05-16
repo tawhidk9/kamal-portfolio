@@ -25,4 +25,27 @@ header h1{
 header nav{
     display: flex;
     justify-content: end;
+    min-height: 50px;
+    position: relative;
+}
+
+/* Body Styles */
+p{
+    display: flex;
+    position: relative;
+    top: 53px;
+    left: 148px;
+    width: 900px;
+}
+
+h2{
+    display: flex;
+    width: 8%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+    background: rgb(183,238,174);
+    background: radial-gradient(circle, rgba(183,238,174,1) 0%, rgba(117,95,196,1) 100%);
+}
 }
