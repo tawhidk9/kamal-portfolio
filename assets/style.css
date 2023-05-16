@@ -1,0 +1,15 @@
+/* wirefram styles */
+/* code global first */
+* {
+    border: solid 1px red;
+}
+
+/* global styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header styles */
