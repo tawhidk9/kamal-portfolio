@@ -1,7 +1,7 @@
 /* wirefram styles */
 /* code global first */
 * {
-    border: solid 1px red;
+    border: solid .5px red;
 }
 
 /* global styles */
@@ -10,6 +10,19 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color:#34568B ;
+    font-size: 16px;
 }
 
 /* header styles */
+header h1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+    font-size: 1.75em;
+}
+
+header nav{
+    display: flex;
+    justify-content: end;
+}
