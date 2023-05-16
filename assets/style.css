@@ -1,8 +1,8 @@
 /* wirefram styles */
 /* code global first */
-* {
+/* * {
     border: solid .5px red;
-}
+} */
 
 /* global styles */
 
@@ -30,22 +30,47 @@ header nav{
 }
 
 /* Body Styles */
-p{
+.container{
     display: flex;
     position: relative;
     top: 53px;
-    left: 148px;
+    left: -25px;
     width: 900px;
 }
 
-h2{
+#me{
+    border: 1px solid antiquewhite;
+    padding: 1em;
+}
+
+#stark {
+        position: relative;
+        width: 13em;
+        padding: 2em;
+        left: 16em;
+}
+
+#side{
     display: flex;
     width: 8%;
     padding-left: 15px;
     margin-left: 15px;
     float: left;
     font-style: italic;
-    background: rgb(183,238,174);
-    background: radial-gradient(circle, rgba(183,238,174,1) 0%, rgba(117,95,196,1) 100%);
+    position: relative;
+    top: 82px;
 }
+
+#projects{
+    display: flex;
+    width: 8%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+    position: relative;
+    top: 30em;
+    right: 8em;
 }
+
+
