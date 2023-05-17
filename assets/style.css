@@ -1,15 +1,20 @@
-code global first
+/* code global first
 * {
     border: solid .5px red;
-}
+} */
 
 /* global styles */
+:root{
+    --background-blue: #453486
+
+}
 
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif; 
-    background-color: rgba(46, 95, 174, 0.73);
+    background-color: var(--background-blue);
     font-size: 16px;
     color: antiquewhite;
 }
@@ -28,7 +33,6 @@ header nav{
     justify-content: end;
     min-height: 50px;
     position: relative;
-    right: 1em;
 }
 
 nav a{
@@ -37,24 +41,33 @@ nav a{
 }
 
 /* Body Styles */
+body{
+    background-color: #453486;
+    padding: 10px;
+    border: 1px solid black;
+}
 .about-me{
     display: flex;
     flex-direction: row;
-    padding: 2em;
+    padding: 1em;
 }
 
 #side{
     display: flex;
     width: 9em;
     font-size: 1.5em;
-    border-right: 1px solid black;
+    padding-left: 25px;
     
 }
 
 .descr{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
     justify-content: center;
+}
+
+.descr p{
+    margin-top: 1em;
 }
 
 #stark{
@@ -82,7 +95,6 @@ p{
     display: flex;
     width: 5.8em;
     font-size: 1.5em;
-    border-right: 1px solid black;
 }
 
 .projectimages{
@@ -104,14 +116,17 @@ p{
 /* Contact Section Styling */
 #contact{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #con{
     display: flex;
     width: 5.8em;
-    font-size: 1.5em;
-    border-right: 1px solid black;  
+    font-size: 1.5em; 
     padding-left: 21px;
+    position: relative;
+    left: 29px;
 }
 
 ul li{
