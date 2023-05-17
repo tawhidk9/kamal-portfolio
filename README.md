@@ -11,4 +11,5 @@ N/A
 ## Usage
 
 Visit the page here: https://tawhidk9.github.io/kamal-portfolio/
-![tawhidk9 github io_kamal-portfolio_ (1)](https://github.com/tawhidk9/kamal-portfolio/assets/113553249/6a2ec3ae-e73f-41ec-8acd-e7dd73857157)
+
+![portfoliopic](https://github.com/tawhidk9/kamal-portfolio/assets/113553249/970cc5dd-d871-4e61-b1e8-96b6b6e469f1)
