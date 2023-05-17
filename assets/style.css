@@ -45,10 +45,10 @@ nav a{
 
 #side{
     display: flex;
-    width: 10.3em;
+    width: 9em;
     font-size: 1.5em;
     border-right: 1px solid black;
-    position: relative;
+    
 }
 
 .descr{
