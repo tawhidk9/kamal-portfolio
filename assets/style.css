@@ -48,6 +48,7 @@ nav a{
     width: 10.3em;
     font-size: 1.5em;
     border-right: 1px solid black;
+    position: relative;
 }
 
 .descr{
