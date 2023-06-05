@@ -139,4 +139,9 @@ ul li a{
     text-decoration: none;
 }
 
-
+#arcade{
+    max-height: 550px;
+    max-width: 490px;
+    position: relative;
+    right: 85px;
+}
