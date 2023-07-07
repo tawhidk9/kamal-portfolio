@@ -85,26 +85,24 @@ p{
 }
 
 /* Content Section Styles */
-.content{
+.content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; /* Change from "row" to "column" */
     padding: 2em;
-}
-
-#projects{
-    display: flex;
+  }
+  
+  #projects {
     width: 5.8em;
     font-size: 1.5em;
-}
-
-.projectimages{
+  }
+  
+  .projectimages {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column-reverse; */
     justify-content: center;
     align-items: center;
     width: 100%;
-}
+  }
 
 #prework{
     display: flex;
@@ -112,6 +110,19 @@ p{
     width: 45em;
     padding: 1em;
 }
+
+.astroproject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #astro {
+    width: 45em;
+    padding: 1em;
+  }
 
 /* Contact Section Styling */
 #contact{
